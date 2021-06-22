@@ -17,7 +17,7 @@ spec:
       hostNetwork: true
       hostPID: true
       containers:
-      - image: mumoshu/aws-ssm-agent:v0.3.0
+      - image: 093056686911.dkr.ecr.us-east-1.amazonaws.com/cloudticity/shared:aws-ssm-agent
         name: ssm-agent
         securityContext:
           runAsUser: 0
